@@ -1,2 +1,2 @@
 all:
-	gcc -framework CoreVideo -framework IOKit -framework Cocoa -framework GLUT -framework OpenGL -Llib -lraylib -Iinclude src/main.c -o main
+	gcc -std=c99 -Wall -Wextra -pedantic -framework CoreVideo -framework IOKit -framework Cocoa -framework GLUT -framework OpenGL -Llib -lraylib -Iinclude src/main.c -o main
